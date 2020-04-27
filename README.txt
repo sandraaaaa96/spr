@@ -3,12 +3,14 @@
 1. git clone repo into sopare
 	git clone https://github.com/sandraaaaa96/spr.git
 2. copy out files into sopare
+	cd sopare
 	cd spr
 	cp cough.log ~/sopare
 	cp logging.sh ~/sopare
 	cp writefiles.py ~/sopare
 	cp upload.sh ~
 3. Permissions:
+	Ensure you are in sopare folder
 	chmod +x writefiles.py
 	chmod +x logging.sh
 4. Make sure cough.log, logging.sh and writefiles.py are in sopare and logging.sh and writefiles.py have been granted permissions
@@ -24,5 +26,6 @@
 5. cronjob
 	crontab -e
 	in the last line input:
-	@reboot bash logging.sh
+	@reboot bash sopare/logging.sh
 	@hourly bash upload.sh
+6. sudo reboot
