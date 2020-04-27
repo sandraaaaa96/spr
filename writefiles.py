@@ -32,4 +32,4 @@ while True:   #comment this out for debug
 		f.write(to_write)
 		time1+=1
 	f.close()
-    #i+=1
+	#i+=1
