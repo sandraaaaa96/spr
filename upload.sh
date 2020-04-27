@@ -1,0 +1,1 @@
+./Dropbox-Uploader/dropbox_uploader.sh upload sopare/logfile-*.log "soparelogs/"
