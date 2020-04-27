@@ -1,5 +1,6 @@
 0. set up sopare
 	https://www.bishoph.org/step-by-step-raspberry-pi-offline-voice-recognition-with-sopare/
+	Ensure sopare has basic functionality before implementing the other scripts.
 
 1. git clone repo into sopare
 	cd sopare
