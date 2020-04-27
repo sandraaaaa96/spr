@@ -11,6 +11,7 @@ In sopare folder:
 In spr folder:
 	cp -r dict ~/sopare
 	cp -r config ~/sopare
+	remember to run ./sopare.py -c to add the dictionary
 
 2. copy out files into sopare
 	cd sopare
