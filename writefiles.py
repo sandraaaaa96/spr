@@ -19,7 +19,7 @@ while True:   #comment this out for debug
 	datetime1=(currentDT.strftime("%Y-%m-%d-%H-%M-%S"))
 	readcpuinfo=open('cpuinfo.txt','r')
 	line_cpu=readcpuinfo.readlines()
-	readcpu.info.close()
+	readcpuinfo.close()
 	serial=line_cpu[len(line_cpu)-2]
 	serialn=re.findall('\d+\w+',serial)
 	filename= 'logfile-'+serialn[0]+'-'+datetime1+'.log'
