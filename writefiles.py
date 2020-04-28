@@ -19,8 +19,8 @@ while True:   #comment this out for debug
 	datetime1=(currentDT.strftime("%Y-%m-%d-%H-%M-%S"))
 	readcpuinfo=open('cpuinfo.txt','r')
 	line_cpu=readcpuinfo.readlines()
-	readcpu.info.close()
-	serial=line_cpu[len(line_cpu)-2]
+	readcpuinfo.close()
+	serial=line_cpu[len(line_cpu)-1]
 	serialn=re.findall('\d+\w+',serial)
 	filename= 'logfile-'+serialn[0]+'-'+datetime1+'.log'
 	coughlog='cough.log'
