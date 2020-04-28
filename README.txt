@@ -1,5 +1,6 @@
 0. set up sopare
 	https://www.bishoph.org/step-by-step-raspberry-pi-offline-voice-recognition-with-sopare/
+	Ensure sopare has basic functionality before implementing the other scripts.
 
 1. git clone repo into sopare
 	cd sopare
@@ -11,6 +12,9 @@ In sopare folder:
 In spr folder:
 	cp -r dict ~/sopare
 	cp -r config ~/sopare
+	cd ..
+In sopare folder
+	remember to run ./sopare.py -c to add the dictionary
 
 2. copy out files into sopare
 	cd sopare
